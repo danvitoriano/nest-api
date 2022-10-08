@@ -1,9 +1,11 @@
 import { Module } from '@nestjs/common';
-import { CommentModule } from './comment/comment.module';
+import { CommentService } from './comment/comment.service';
+import { HttpModule } from '@nestjs/axios';
+import { CommentController } from './comment/comment.controller';
 
 @Module({
-  imports: [CommentModule],
-  controllers: [],
-  providers: [],
+  imports: [HttpModule],
+  controllers: [CommentController],
+  providers: [CommentService],
 })
 export class AppModule {}

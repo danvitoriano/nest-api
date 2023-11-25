@@ -11,7 +11,7 @@ export class CommentService {
     {
       id: 1,
       user_id: '1',
-      comment: 'This is a comment',
+      comment: 'This is a comment!',
     },
   ];
 

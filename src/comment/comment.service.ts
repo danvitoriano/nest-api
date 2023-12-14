@@ -21,6 +21,7 @@ export class CommentService {
     { id: 3, user_id: '3', comment: 'This is a third comment' },
     { id: 4, user_id: '4', comment: 'This is a fourth comment' },
     { id: 5, user_id: '5', comment: 'This is a fifth comment' },
+    { id: 6, user_id: '6', comment: 'This is a sixth comment' },
   ];
 
   constructor(private readonly httpservice: HttpService) {}

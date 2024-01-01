@@ -28,6 +28,14 @@ export class CommentService {
     { id: 10, user_id: '10', comment: 'This is a tenth comment' },
     { id: 11, user_id: '11', comment: 'This is a eleventh comment' },
     { id: 12, user_id: '12', comment: 'This is a twelfth comment' },
+    { id: 13, user_id: '13', comment: 'This is a thirteenth comment' },
+    { id: 14, user_id: '14', comment: 'This is a fourteenth comment' },
+    { id: 15, user_id: '15', comment: 'This is a fifteenth comment' },
+    { id: 16, user_id: '16', comment: 'This is a sixteenth comment' },
+    { id: 17, user_id: '17', comment: 'This is a seventeenth comment' },
+    { id: 18, user_id: '18', comment: 'This is a eighteenth comment' },
+    { id: 19, user_id: '19', comment: 'This is a nineteenth comment' },
+    { id: 20, user_id: '20', comment: 'This is a twentieth comment' },
   ];
 
   constructor(private readonly httpservice: HttpService) {}

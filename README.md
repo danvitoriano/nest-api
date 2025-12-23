@@ -62,6 +62,42 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## Deploy na Vercel
+
+Este projeto está configurado para deploy na Vercel. Siga os passos:
+
+### Opção 1: Deploy via CLI
+
+1. Instale a CLI da Vercel:
+```bash
+npm install -g vercel
+```
+
+2. Faça login na Vercel:
+```bash
+vercel login
+```
+
+3. Deploy:
+```bash
+vercel
+```
+
+### Opção 2: Deploy via GitHub
+
+1. Faça push do código para o GitHub
+2. Acesse [vercel.com](https://vercel.com)
+3. Importe o repositório
+4. A Vercel detectará automaticamente as configurações do `vercel.json`
+
+### Rotas da API
+
+- `POST /comment` - Criar comentário
+- `GET /comment` - Listar todos os comentários
+- `GET /comment/:id` - Buscar comentário por ID
+- `PATCH /comment/:id` - Atualizar comentário
+- `DELETE /comment/:id` - Deletar comentário
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
